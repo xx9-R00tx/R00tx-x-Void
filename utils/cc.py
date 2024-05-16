@@ -1,8 +1,5 @@
-import fade, os, ctypes
+import fade, os
 
-ct = ctypes.windll.kernel32.SetConsoleTitleW
-
-ct("TITLEHERE")
 
 menu = f"""
 
